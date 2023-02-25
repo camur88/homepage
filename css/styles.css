@@ -5,17 +5,26 @@ body {
     font-family: 'Merriweather', serif;
 }
 
+
+a {
+    color: #11999E;
+    font-weight: normal;
+}
 h1 {
+    color: #66BFBF;
+    font-size: 90px;
     margin-top: 0;
     font-family: 'Shantell Sans', cursive;
    
 }
 
 h2 {
+    color: #66BFBF;
     font-family: 'Montserrat', sans-serif;
 }
 
 h3 {
+    color: #11999E;
     font-family: 'Montserrat', sans-serif;
 }
 .pro {
@@ -24,15 +33,18 @@ h3 {
 .top-container {
     background-color: #85CDFD;
     position: relative;
-    padding-top: 100px; 
+    padding-top: 100px;
+    padding-bottom: 20px;
 }
 .middle-container{
-    
-    
+    padding: 20px;
+    background-color: #85CDFD;
+     
     
 }
 .bottom-container {
-
+    padding: 10px;
+    background-color: #85CDFD;
 
 }
 .top-cloud {
