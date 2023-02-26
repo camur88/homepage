@@ -5,11 +5,23 @@ body {
     
 }
 
-
 a {
-    color: #11999E;
+    color: white;
     font-weight: normal;
 }
+
+p {
+    color: #66BFBF;
+}
+
+hr {
+    border-color: #66BFBF;
+    border-width: 5px;
+    width: 15%;
+    border-style: dotted none none;
+    background-color: #FEFBE9;
+}
+
 h1 {
     color: #66BFBF;
     font-size: 5.625rem;
@@ -39,19 +51,26 @@ h3 {
     background-color: #B4E4FF;
     position: relative;
     padding-top: 100px;
-    padding-bottom: 20px;
+    
 }
 /*------------------TOP CONTAINER-------------------*/
 .top-cloud {
     position: absolute;
+    height: 150px;
     top: 50px;
     right: 450px;
     
+    
+}
+
+.mountain-pic {
+    padding: auto;
+    height: 500px;
 }
 
 .bottom-cloud {
     position: absolute;
-    
+    height: 200px;
     left: 450px;
     
 }
@@ -59,7 +78,7 @@ h3 {
 /*------------------MIDDLE CONTAINER-------------------*/
 .middle-container{
     padding: 20px;
-    background-color: #B4E4FF;
+    background-color: #FEFBE9;
      
     
 }
@@ -68,4 +87,13 @@ h3 {
     padding: 10px;
     background-color: #B4E4FF;
 
+}
+
+.LinkedIn-img {
+    height: 50px;
+    padding: 10px;
+}
+
+.email-img {
+    height: 50px;
 }
