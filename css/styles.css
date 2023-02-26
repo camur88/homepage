@@ -1,8 +1,8 @@
 body {
-    background-color:#3C84AB ;
+    
     margin: 0;
     text-align: center;
-    font-family: 'Merriweather', serif;
+    
 }
 
 
@@ -12,52 +12,60 @@ a {
 }
 h1 {
     color: #66BFBF;
-    font-size: 90px;
-    margin-top: 0;
-    font-family: 'Shantell Sans', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive, sans-serif;
+    font-weight: normal;
+    line-height: 2;
    
 }
 
 h2 {
     color: #66BFBF;
     font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
 }
 
 h3 {
-    color: #11999E;
+    color: #66BFBF;
     font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
 }
 .pro {
     text-decoration: underline;
 }
 .top-container {
-    background-color: #85CDFD;
+    background-color: #B4E4FF;
     position: relative;
     padding-top: 100px;
     padding-bottom: 20px;
 }
-.middle-container{
-    padding: 20px;
-    background-color: #85CDFD;
-     
-    
-}
-.bottom-container {
-    padding: 10px;
-    background-color: #85CDFD;
-
-}
+/*------------------TOP CONTAINER-------------------*/
 .top-cloud {
     position: absolute;
     top: 50px;
-    right: 350px;
+    right: 450px;
     
 }
 
 .bottom-cloud {
     position: absolute;
-    bottom: 300px;
     
-   
+    left: 450px;
     
+}
+
+/*------------------MIDDLE CONTAINER-------------------*/
+.middle-container{
+    padding: 20px;
+    background-color: #B4E4FF;
+     
+    
+}
+/*------------------BOTTOM CONTAINER-------------------*/
+.bottom-container {
+    padding: 10px;
+    background-color: #B4E4FF;
+
 }
