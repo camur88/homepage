@@ -1,22 +1,21 @@
 body {
     margin: 0;
     text-align: center;
+    color: #40514E;
     
 }
 
-a {
-    color: white;
-    font-weight: normal;
-}
+
 
 p {
-    color: #66BFBF;
+    line-height: 2;
 }
 
 hr {
     border-color: #66BFBF;
     border-width: 5px;
     width: 15%;
+    margin: 100px auto;
     border-style: dotted none none;
     background-color: #FEFBE9;
 }
@@ -36,6 +35,7 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     font-weight: normal;
+    padding-bottom: 10px;
 }
 
 h3 {
@@ -46,13 +46,20 @@ h3 {
 .pro {
     text-decoration: underline;
 }
+
+
+/*---------Fav colors----------------------------
+B4E4FF, FEFBE9
+#4E6E81 , 3A98B9 */
+
+/*------------------TOP CONTAINER-------------------*/
 .top-container {
     background-color: #B4E4FF;
     position: relative;
     padding-top: 100px;
     
 }
-/*------------------TOP CONTAINER-------------------*/
+
 .top-cloud {
     position: absolute;
     height: 150px;
@@ -74,25 +81,96 @@ h3 {
     
 }
 
-/*------------------MIDDLE CONTAINER-------------------*/
+/*------------------MIDDLE CONTAINER---#FEFBE9----------------*/
 .middle-container{
+    margin: 100px 0;
     padding: 20px;
-    background-color: #FEFBE9;
+    
      
     
 }
-/*------------------BOTTOM CONTAINER-------------------*/
-.bottom-container {
-    padding: 10px;
-    background-color: #B4E4FF;
 
+
+
+.profile-pic {
+    border-radius: 50%;
+    height: 300px;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.computer-pic {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+
+    
+}
+
+.cyber-pic {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    
+}
+
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+
+}
+/*------------------BOTTOM CONTAINER-------------------*/
+
+.bottom-container{
+    background-color: #B4E4FF;
+    padding: 50px 0 20px;
+}
+
+.contact{
+    margin: 0;
 }
 
 .linkedIn-img {
     height: 50px;
-    padding: 10px;
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    
+}
+
+.linkedIn-img:hover{
+    -webkit-filter: brightness(100%);
 }
 
 .email-img {
     height: 50px;
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all 0.2 ease;
+    -moz-transition: all 0.2 ease;
+    -o-transition: all 0.2 ease;
+    -ms-transition: all 0.2 ease;
+    transition: all 0.2 ease;
+    
+}
+
+.email-img:hover {
+    -webkit-filter: brightness(100%);
+}
+.link {
+    color: blue;
+    text-decoration: none;
+}
+
+.copyright{
+    color: darkgray;
+    font-size: 0.75rem;
+    padding: 10px 0;
 }
