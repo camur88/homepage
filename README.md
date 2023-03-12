@@ -1,4 +1,4 @@
-# homepage
+# Homepage
 
 A simple homepage with pure HMTL/CSS.
 
