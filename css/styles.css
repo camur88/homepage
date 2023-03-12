@@ -2,82 +2,102 @@ body {
     margin: 0;
     text-align: center;
     color: #40514E;
-    
+    background-color: #F7F1E5;
+    width: 100%;
+    height: auto;
 }
-
-
 
 p {
     line-height: 2;
+    font-size: 1rem;
 }
 
 hr {
-    border-color: #66BFBF;
+    border-color: #6C7B95;
     border-width: 5px;
     width: 15%;
     margin: 100px auto;
     border-style: dotted none none;
-    background-color: #FEFBE9;
+    background-color: #E6E6E6;
 }
 
 h1 {
-    color: #66BFBF;
-    font-size: 5.625rem;
+    color: #3C79F5;
+    font-size: 5.1vw;
+    /*font-size: 5.625rem;*/
     margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive, sans-serif;
     font-weight: normal;
     line-height: 2;
+    height: auto;
+    width: auto;
    
-}
 
+}
 h2 {
-    color: #66BFBF;
+    color: #3C79F5;
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
+    font-size: 2.2vw;
     font-weight: normal;
     padding-bottom: 10px;
+    height: auto;
+    width: auto;
 }
 
 h3 {
-    color: #66BFBF;
+    color: #3C79F5;
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
+    height: auto;
+    width: auto;
 }
 .pro {
     text-decoration: underline;
 }
 
 
-/*---------Fav colors----------------------------
-B4E4FF, FEFBE9
-#4E6E81 , 3A98B9 */
-
 /*------------------TOP CONTAINER-------------------*/
 .top-container {
     background-color: #B4E4FF;
     position: relative;
     padding-top: 100px;
+    height: auto;
+    width: 100%;
     
 }
 
 .top-cloud {
     position: absolute;
-    height: 150px;
+    width: 8%;
+    height: auto;
     top: 50px;
-    right: 450px;
+    right: 30%;
+    
+    
+}
+
+.top-cloud-1 {
+    position: absolute;
+    height: auto;
+    width: 8%;
+    top: 50px;
+    left: 12%;
     
     
 }
 
 .mountain-pic {
     padding: auto;
-    height: 500px;
+    width: 50%;
+    height: auto;
 }
 
 .bottom-cloud {
     position: absolute;
-    height: 200px;
-    left: 450px;
+    
+    height: auto;
+    left: 25%;
+    width: 10%;
     
 }
 
@@ -85,16 +105,17 @@ B4E4FF, FEFBE9
 .middle-container{
     margin: 100px 0;
     padding: 20px;
-    
+    height: auto;
      
-    
 }
 
 
 
 .profile-pic {
     border-radius: 50%;
-    height: 300px;
+    width: 10%;  
+    height: 10%;  
+    object-fit: cover
 }
 
 .intro {
@@ -122,22 +143,18 @@ B4E4FF, FEFBE9
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
-
+    
 }
 /*------------------BOTTOM CONTAINER-------------------*/
 
 .bottom-container{
-    background-color: #B4E4FF;
+    background-color: #9BA4B4;
     padding: 50px 0 20px;
 }
 
-.contact{
-    margin: 0;
-}
 
 .linkedIn-img {
     height: 50px;
-    -webkit-filter: brightness(50%);
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
@@ -147,12 +164,11 @@ B4E4FF, FEFBE9
 }
 
 .linkedIn-img:hover{
-    -webkit-filter: brightness(100%);
+    filter: brightness(120%);
 }
 
 .email-img {
     height: 50px;
-    -webkit-filter: brightness(50%);
     -webkit-transition: all 0.2 ease;
     -moz-transition: all 0.2 ease;
     -o-transition: all 0.2 ease;
@@ -162,15 +178,15 @@ B4E4FF, FEFBE9
 }
 
 .email-img:hover {
-    -webkit-filter: brightness(100%);
+    filter: brightness(120%);
 }
 .link {
-    color: blue;
+    
     text-decoration: none;
 }
 
 .copyright{
-    color: darkgray;
+    color: #E6E6E6;
     font-size: 0.75rem;
     padding: 10px 0;
 }
