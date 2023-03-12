@@ -2,8 +2,12 @@
 
 A simple responsive homepage with pure HMTL/CSS.
 
-Used colors from this website: https://colorhunt.co/
 
-Used pictures from: https://www.pngmart.com/
+Description:
+- Used colors from this website: https://colorhunt.co/
 
-More website projects is in progress.
+- Used pictures from: https://www.pngmart.com/
+
+
+
+More website projects is in progress...
